@@ -71,4 +71,10 @@ public class CalculatorTest {
         int[] input = {'a', '1', -']', '0', -'5'};
         assertEquals(-'5' + -']', calculator.sumOfMinTwoMinElements(input));
     }
+
+    @Test
+    public void calculatorTest() {
+        int[] input = {3, 7};
+        assertEquals(10, calculator.sumOfMinTwoMinElements(input));
+    }
 }

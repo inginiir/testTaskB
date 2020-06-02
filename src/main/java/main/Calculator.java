@@ -26,7 +26,7 @@ public class Calculator {
         }
 
         int minIndex1 = inputArray[0] < inputArray[1] ? 0 : 1;
-        int minIndex2 = inputArray[0] > inputArray[1] ? 1 : 0;
+        int minIndex2 = minIndex1 != 1 ? 1 : 0;
         int temp;
 
         for (int i = 2; i < inputArray.length; i++) {

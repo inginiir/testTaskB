@@ -2,7 +2,7 @@ package main;
 
 public class Demo {
 
-    static int[] m = null;
+    private static int[] m = {3, 7};
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
 
