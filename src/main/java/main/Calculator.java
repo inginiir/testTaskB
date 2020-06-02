@@ -18,7 +18,7 @@ public class Calculator {
      */
 
     public int sumOfMinTwoMinElements(int[] inputArray) {
-        if (inputArray.length == 0) {
+        if (inputArray == null || inputArray.length == 0) {
             return 0;
         }
         if (inputArray.length == 1) {
